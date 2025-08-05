@@ -1,42 +1,40 @@
-# BasketTracking
+# 🏀 HoopTrack
 
-![](resources/logo_large.png "Logo")
+**Automated player and ball tracking system for professional basketball using Computer Vision and Deep Learning.**  
+Tactical decisions and statistical insights in professional basketball require accurate player and ball tracking. **HoopTrack** is a computer vision pipeline built to detect players, track their trajectories, rectify positions onto a standard basketball court, and identify the ball handler.
 
-Tactics and statistics in professional basketball teams are widespread. This operation can be optimized and speed up by
-an automatic computer vision system. We aim at developing such system capable of action tracking and understanding in
-basketball games using computer vision approaches and ideas alongside deep learning models such as Detectron2. Our
-system tracks player trajectories from videos and rectifies them to a standard basketball court, showing also the player
-who owns the ball.  
-_(disclaimer: we implemented some components with old fashion CV techniques, e.g. ball detection with template matching, the performance was not the goal of the project)_
+> ⚠️ Note: This project was built with a mix of traditional computer vision and deep learning techniques. Performance was not the primary goal, but rather experimentation and proof of concept.
 
-## Table of Contents
+---
 
-* [Demo](#demo)
-* [Dependencies](#dependencies)
-* [Usage](#usage)
+## 📋 Table of Contents
 
-### Demo
+- [🎥 Demo](#-demo)
+- [📦 Dependencies](#-dependencies)
+- [🚀 Usage](#-usage)
+- [🧠 System Components](#-system-components)
+- [📁 Directory Structure](#-directory-structure)
 
-https://user-images.githubusercontent.com/28055473/235509681-c2008686-43b4-40a4-a64d-e642714d84ff.mp4
+---
 
-### Dependencies
+## 🎥 Demo
 
-* [Python](https://www.python.org/)
-* [OpenCV](https://opencv.org/)
-* [Detectron2](https://github.com/facebookresearch/detectron2)
-* [Pytorch-Cuda](https://pytorch.org/)
-* [Numpy](https://numpy.org/)
-* [Matplotlib](https://matplotlib.org/)
+https://github.com/your-org/HoopTrack/assets/demo.mp4
 
-### Usage
+---
 
-The system can be executed from the ```main.py```.
+## 📦 Dependencies
 
-* ```main.py```: Initializes classes and loads or rectifies the needed images
-* ```video_handler.py```: Manages the frame reading procedure from the input video.
-* ```rectify_court.py```: Produces homographies, rectified images, panoramas.
-* ```ball_detect_track.py```: Detects and tracks the ball
-* ```player_detection.py```: Detects and tracks the players
-* ```player.py```: Contains the class ```Player```.
-* ```tools```: Helper functions.
-* ```resources```: Contains template images, input video.
+Make sure the following libraries are installed:
+
+- Python 3.8+
+- OpenCV
+- Detectron2
+- PyTorch with CUDA
+- NumPy
+- Matplotlib
+
+You can install required packages using:
+
+```bash
+pip install -r requirements.txt
