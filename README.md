@@ -19,7 +19,7 @@ Tactical decisions and statistical insights in professional basketball require a
 
 ## 🎥 Demo
 
-https://github.com/your-org/HoopTrack/assets/demo.mp4
+https://github.com/your-org/HoopTrack/assets/demo.mp
 
 ---
 
